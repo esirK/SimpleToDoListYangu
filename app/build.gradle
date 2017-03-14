@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.janta.esir.simpletodolistyangu"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -30,5 +30,12 @@ dependencies {
 
     // RecyclerView
     compile 'com.android.support:recyclerview-v7:25.2.0'
+
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0'
+    compile 'com.github.ganfra:material-spinner:1.1.0'
+    compile 'com.wdullaer:materialdatetimepicker:1.5.1'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.github.ganfra:material-spinner:1.1.0'
+
     testCompile 'junit:junit:4.12'
 }

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SimpleToDoListYangu</string>
+    <string name="remove">Remove</string>
+    <string name="snooze">Snooze</string>
+    <string-array name="snooze_options">
+        <item>10 Minutes</item>
+        <item>30 Minutes</item>
+        <item>1 Hour</item>
+    </string-array>
 </resources>
